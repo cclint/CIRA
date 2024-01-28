@@ -35,3 +35,5 @@ if __name__ =="__main__":
     
     # I considered creating a setter for diameter, but I don't think it would be good practice to create a setter for attributes that are dependent 
     # upon other attributes. So, setters here should only be used for independent attributes, like radius!
+    
+    print(circle1.diameter) # output is 10
