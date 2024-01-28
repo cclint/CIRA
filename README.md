@@ -1,5 +1,5 @@
 
-# Basic OOP in Python and Using Sphinx for documentation
+## Basic OOP in Python and Using Sphinx for documentation
 
 ```markdown
 # Python Object-Oriented Programming (OOP) Script
