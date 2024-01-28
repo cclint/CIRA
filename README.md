@@ -1,11 +1,11 @@
 
-### Basic OOP in Python and Using Sphinx for documentation
+#### Basic OOP in Python and Using Sphinx for documentation
 
 ```markdown
 # Python Object-Oriented Programming (OOP) Script
 
 This Python script (`src/oop.py`) demonstrates a basic implementation of an adder using object-oriented programming (OOP) principles. It includes a class `Adder` with methods to initialize the object, add values, and provide string representations.
-
+```
 ## Usage
 
 1. **Clone the Repository:**
@@ -31,7 +31,6 @@ This Python script (`src/oop.py`) demonstrates a basic implementation of an adde
 - `__str__(self)`: Returns a human-readable string representation.
 - `add(self, num)`: Adds the specified number to the current value.
 
-```
 
 ### RST File README.md
 
@@ -39,7 +38,7 @@ This Python script (`src/oop.py`) demonstrates a basic implementation of an adde
 # RST to HTML Converter
 
 This project involves converting a reStructuredText (RST) file to HTML using `pandoc` and viewing the HTML file in the Firefox browser on Ubuntu.
-
+```
 ## Prerequisites
 
 - [Pandoc](https://pandoc.org/): Install Pandoc to convert between different document formats.
