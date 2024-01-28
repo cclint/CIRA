@@ -1,11 +1,10 @@
 
-## Basic OOP in Python and Using Sphinx for documentation
+# Basic OOP in Python and Using Sphinx for Documentation
 
-```markdown
-# Python Object-Oriented Programming (OOP) Script
+## Python Object-Oriented Programming (OOP) Script
 
 This Python script (`src/oop.py`) demonstrates a basic implementation of an adder using object-oriented programming (OOP) principles. It includes a class `Adder` with methods to initialize the object, add values, and provide string representations.
-```
+
 ## Usage
 
 1. **Clone the Repository:**
@@ -16,13 +15,11 @@ This Python script (`src/oop.py`) demonstrates a basic implementation of an adde
 
 2. **Run the Script:**
    ```bash
+   cd src/
    python oop.py
    ```
 
    This script creates an instance of the `Adder` class, adds values, and prints the object's state.
-
-3. **Explore the Code:**
-   Review the `Adder` class and its methods in the `oop.py` file. Feel free to customize or extend the script for your needs.
 
 ## Class Methods
 
@@ -31,39 +28,44 @@ This Python script (`src/oop.py`) demonstrates a basic implementation of an adde
 - `__str__(self)`: Returns a human-readable string representation.
 - `add(self, num)`: Adds the specified number to the current value.
 
+## Sphinx Documentation
 
-### RST File README.md
+To generate documentation using Sphinx, follow these steps:
 
-```markdown
-# RST to HTML Converter
-
-This project involves converting a reStructuredText (RST) file to HTML using `pandoc` and viewing the HTML file in the Firefox browser on Ubuntu.
-```
-## Prerequisites
-
-- [Pandoc](https://pandoc.org/): Install Pandoc to convert between different document formats.
-- [Firefox](https://www.mozilla.org/en-US/firefox/new/): Install Firefox to view the generated HTML file.
-
-## Conversion and Viewing
-
-1. **Clone the Repository:**
+1. **Install Sphinx:**
    ```bash
-   git clone https://github.com/your-username/your-repo.git
-   cd your-repo
+   pip install sphinx
    ```
 
-2. **Convert RST to HTML:**
+2. **Navigate to the `docs` directory:**
+   ```bash
+   cd docs
+   ```
+
+3. **Initialize Sphinx:**
+   ```bash
+   sphinx-quickstart
+   ```
+
+4. **Build HTML Documentation:**
    ```bash
    make html
    ```
-
-3. **View HTML in Firefox:**
+5. **View HTML in Firefox:**
    ```bash
    firefox index.html
    ```
+6. **View HTML Documentation:**
+   Open the generated HTML documentation in a web browser. The HTML files should be located in the `_build/html` directory within the `docs` directory.
+
+
+## Prerequisites
+
+- [Firefox](https://www.mozilla.org/en-US/firefox/new/): Install Firefox to view the generated HTML file.
+
 ## Result (HTML files rendered in FireFox)
-![alt text](https://github.com/cclint/CIRA/raw/main/images/adder1.png)
-![alt text](https://github.com/cclint/CIRA/raw/main/images/adder2.png)
+![adder1](https://github.com/cclint/CIRA/assets/45945445/a29a92a8-0bc1-4ea1-9d3d-a371340cee2f)
+![adder2](https://github.com/cclint/CIRA/assets/45945445/56320523-fb16-4f64-a9af-e8a730efb87f)
 
 
 

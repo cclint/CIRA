@@ -13,7 +13,7 @@ How to Run
 
 1. Install python if you haven't already
 
-2. Clone this repo: https://github.com/cclint/CIRA-Interview.git
+2. Clone this repo: https://github.com/cclint/CIRA.git
 
 3. Open a terminal or command prompt and navigate to the directory where the script (`oop.py`) is located.
 
