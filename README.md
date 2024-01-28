@@ -15,6 +15,7 @@ This Python script (`src/oop.py`) demonstrates a basic implementation of an adde
 
 2. **Run the Script:**
    ```bash
+   cd src/
    python oop.py
    ```
 
