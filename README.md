@@ -62,8 +62,9 @@ This project involves converting a reStructuredText (RST) file to HTML using `pa
    firefox index.html
    ```
 ## Result (HTML files rendered in FireFox)
-![alt text](https://github.com/cclint/CIRA/blob/main/images/adder1.png?raw=true)
-![alt text](https://github.com/cclint/CIRA/blob/main/images/adder2.png?raw=true)
+![alt text](https://github.com/cclint/CIRA/raw/main/images/adder1.png)
+![alt text](https://github.com/cclint/CIRA/raw/main/images/adder2.png)
+
 
 
 ```
